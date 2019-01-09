@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="@string/Home"/>
+    <!--<item-->
+        <!--android:id="@+id/nav_payment"-->
+        <!--android:icon="@drawable/ic_tracking"-->
+        <!--android:title="@string/Payment"/>-->
+    <item
+        android:id="@+id/nav_your_trips"
+        android:icon="@drawable/ic_maps_and_flags"
+        android:title="@string/yourTrips"/>
+    <item
+        android:id="@+id/nav_wallet"
+        android:icon="@drawable/menu_walletunfocus"
+        android:title="@string/wallet"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_users"
+        android:title="@string/profile"/>
+    <item
+        android:id="@+id/nav_fav"
+        android:icon="@drawable/ic_star_1"
+        android:title="@string/favourite"/>
+    <item
+        android:id="@+id/nav_promo_his"
+        android:icon="@drawable/ic_marketing"
+        android:title="@string/promotion"/>
+    <item
+        android:id="@+id/nav_fare"
+        android:icon="@drawable/ic_coins"
+        android:title="@string/fare"/>
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_1496241946_gear"
+        android:title="@string/Settings"/>
+    <item
+        android:id="@+id/nav_info"
+        android:icon="@drawable/ic_information"
+        android:title="@string/about"/>
+    <item
+        android:id="@+id/nav_log_out"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/Logout"/>
+</menu>

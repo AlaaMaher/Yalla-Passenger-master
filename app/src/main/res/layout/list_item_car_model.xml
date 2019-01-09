@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/taxitype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="4"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/selector_row">
+
+        <LinearLayout
+            android:id="@+id/linear_mini"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/car1_unfocus"
+                android:tint="@color/gray" />
+
+            <TextView
+                android:id="@+id/tv_model_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Mini"
+                android:textSize="13sp"
+                android:textAlignment="center"
+                android:textColor="@color/gray"
+                />
+        </LinearLayout>
+</LinearLayout>
